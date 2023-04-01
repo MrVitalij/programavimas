@@ -51,6 +51,12 @@ namespace uzduotis05
 
             Console.WriteLine($"Sandauga: {sandauga}");
             Console.WriteLine();
+
+            // 4 dalis
+
+            Console.WriteLine(-1 + 4 * 6);
+            Console.WriteLine(14 + -4 * 6 / 11);
+            Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);
         }
     }
 }
