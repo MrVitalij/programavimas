@@ -6,6 +6,8 @@ namespace uzduotis21
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             // Masyvo kūrimas su duomenimis
             int[] studentuPazymiai = { 10, 9, 8, 7, 6 };
 
