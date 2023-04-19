@@ -6,6 +6,10 @@ namespace uzduotis24
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            //Paklausti vartotojo, kiek duomenų nori įvesti į masyvą  Pagal tai sukursime tokio dydžio masyvą
+           
             Console.WriteLine("Įveskite kiek duomenų norite įvesti į masyvą:");
             int n = Convert.ToInt32(Console.ReadLine());
 
