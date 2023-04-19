@@ -17,7 +17,7 @@ namespace uzduotis22
             int belowAvgCount = 0;
             int aboveAvgCount = 0;
 
-            // Rasti žemiausią, didžiausią ir vidurkį
+            // Rasti žemiausią, didžiausią ir vidurkį 
             foreach (int temp in temperatūros)
             {
                 if (temp < minTemp) minTemp = temp;
